@@ -9,8 +9,14 @@ class Cpp
         return a + b;
       }
     '
+    builder.c '
+      int diff(int a, int b) {
+        return a - b;
+      }
+    '
   end
 end
 
 c = Cpp.new()
 puts c.sum(1, 2)
+puts c.diff(99, 100)
