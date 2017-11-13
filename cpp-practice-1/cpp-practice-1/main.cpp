@@ -21,6 +21,21 @@ int main()
     cout << "I love ";
     cout << "dogs!" << endl;
     cout << "This should end as a new line \n";
+    
+    string x = "bacon";
+    cout << "I love " + x << endl;
+    
+    int myInt = 6;
+    cout << "I have " << myInt << " dogs" << endl;
+    
+    int a = 123;
+    int b = 321;
+    int abSum = a + b;
+    int abDiff = a - b;
+    
+    cout << "The sum of " << a << " and " << b << " is " << abSum << endl;
+    cout << "The diff of " << a << " and " << b << " is " << abDiff << endl;
+    
     sayHello();
     return 0;
 }
