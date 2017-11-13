@@ -13,8 +13,9 @@ void parseTitanic(std::string filePath) {
     std::cerr << "Unable to open the requested file..." << std::endl;
     exit(1);
   }
-  // define the delimiter (in this case [,])
+  // line will contain each row of the CSV file
   std::string line; 
+  // value will contain the data of interest
   std::string value;
   // size_t is an unsigned integral type
   size_t pos = 0;
