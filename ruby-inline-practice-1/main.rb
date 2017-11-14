@@ -48,5 +48,5 @@ class Cpp
   end
 end
 
-c = Cpp.new()
+c = Cpp.new
 c.parseTitanic
